@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: auto;
+}
+div{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    clear: both;
+    display: block;
+
+    
+    /*background-color: darkgoldenrod;*/
+}
+.heading-box{
+    background-color: white;
+    height:50px;
+    width: 50px;
+    margin: 0px;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+
+}
+body{
+    background-color: burlywood;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 50px;
+}
+.box1{
+    background-color: #8edb13c9;
+    width :50%;
+}
+.box2{
+    width: 50%;
+    
+}
+span{
+    display: inline-flex;
+}
