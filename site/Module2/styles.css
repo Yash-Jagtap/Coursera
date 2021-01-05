@@ -10,33 +10,40 @@ Layout: In the mobile view (equal to or less than 767px), each section should ta
 
 */
 *{
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: auto;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: auto;
 }
-div{
-    
-    padding: 10px;
-    
-    
+div{  
+  padding: 10px;
 }
 div#row{
     border: none;
     width: 100%;
 }
+h1{
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+}
 p{
-    margin-top: 10px;
+    margin: 35px;;
     padding: 10px;
     border: 10px;
+
     
 }
 .heading-box{
     background-color: white;
     height:50px;
     width: 50px;
-    margin: 10px;
-    padding: 5px;
-    display: inline;
+    border: 1px solid #512A5B;
+    padding: 1px;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    right: 0px;
 }
 body{
     background-color: burlywood;
@@ -45,24 +52,29 @@ body{
     
 }
 
+.box1,.box2,.box3{
+  position: relative;
+  margin: auto;
+  border: 2px solid brown;
+  position: relative;
+}
+
 .box1{
-    background-color: #8edb13c9;
-    
+  background-color: #8edb13c9;  
 }
 .box2{
-    background-color: coral;
-    
+  background-color: coral;  
 }
 
 .box3{
-    background-color: crimson;
-    
+  background-color: crimson;
 }
         /* ********Large Devices ****** */
 @media (min-width: 992px) {
     .col-dv-4 {
       float: left;
       width : 33.33%;
+      
     }
     
   }
@@ -71,6 +83,7 @@ body{
   @media screen and (min-width: 768px) and (max-width: 991.9px) {
     .col-tb-1, .col-tb-2, .col-tb-3, .col-tb-4, .col-tb-5, .col-tb-6, .col-tb-7, .col-tb-8, .col-tb-9, .col-tb-10, .col-tb-11, .col-tb-12 {
       float: left;
+      
     
     }
     
@@ -88,5 +101,6 @@ body{
   .col-sm-12 {
     float: left;
     width: 100%;
+    
   }
 }
