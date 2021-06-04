@@ -47,6 +47,11 @@ div button.navbar-toggler{
         visibility: hidden;
     }
 }
+@media (max-width:990px) {
+    #navbarSupportedContent{
+        visibility: visible;
+    }
+}
 
 button.navbar-toggler{
     position: absolute;
